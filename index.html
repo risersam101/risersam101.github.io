@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Jeff Bezos Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("jeffhero.jpg");
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  display: flex;
+  flex-wrap: nowrap;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  float: right;
+
+  text-decoration: none;
+}
+
+
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+
+
+
+/* Footer */
+.footer {
+  padding: 20px;
+  color: white;
+  background: #333;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:60px">I am Jeff Bezos</h1>
+    <p style="font-size:25px">Yes! I am the richest person on Earth.</p>
+  </div>
+</div>
+
+<div class="navbar">
+  <a href="https://github.com/risersam101" target="_blank">Github</a>
+  <a href="https://www.linkedin.com/in/shaik-afnaan-mehraj-5ab712105" target="_blank" >Linkedin</a>
+  <a href="https://twitter.com/jeffbezos" target="_blank">Twitter</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>The Brand</h2>
+
+    <div  style="height:200px;">
+    <img src="amazon.jpg" alt="jeffbeginsjrny" style="size:width=200px; height:200px">
+
+  </div>
+<p>Amazon.com, is an American multinational technology company based in Seattle that focuses on e-commerce, cloud computing, digital streaming, and artificial intelligence.
+  <br> It is considered one of the Big Four technology companies, along with Google, Apple, and Facebook.
+  <br>It has been referred to as "one of the most influential economic and cultural forces in the world" as well as the world's most valuable brand.
+
+<br>
+Amazon is known for its disruption of well-established industries through technological innovation and mass scale.It is the world's largest online marketplace, AI assistant provider, live-streaming platform and cloud computing platformas measured by revenue and market capitalization.
+<br>Amazon is the largest Internet company by revenue in the world.
+<br> It is the second largest private employer in the United States and one of the world's most valuable companies.
+    <h3>First headquaters</h3>
+    <img src="building.jpg" alt="jeffbeginsjrny" style="size:width=200px; height:200px">
+
+  </div>
+  <div class="main">
+    <h2>How it all started</h2>
+    <h5>July 5,1994</h5>
+    <img src="jeffbegins.jpg" alt="jeffbeginsjrny" style="size:width=200px; height:200px">
+    <p>Born in 1964 in New Mexico, Bezos had an early love of computers and studied computer science and electrical engineering at Princeton University.
+      <br>After graduation, he worked on Wall Street, and in 1990 he became the youngest senior vice president at the investment firm D.E. Shaw.
+
+<br>Four years later, Bezos quit his lucrative job to open Amazon.com, an online bookstore that became one of the Internet's biggest success stories. In 2013, Bezos purchased The Washington Post, and in 2017 Amazon acquired Whole Foods. </p>
+
+    <br>
+    <h2>Company right now-</h2>
+    <p>the headquaters..</p>
+  <img src="hq2.jpg" alt="jeffbeginsjrny" style="size:width=600px; height:500px">
+  </div>
+</div>
+
+
+
+<div class="footer">
+  <h2>Author:</h2>
+  <address>
+Written by Shaik Afnaan Mehraj<br>
+E-mail me at:
+afnaansam001@gmail.com<br>
+</address>
+ <p style="font-size:25px; text-align: center;">Thanks for visiting!!</p>
+</div>
+
+</body>
+</html>
